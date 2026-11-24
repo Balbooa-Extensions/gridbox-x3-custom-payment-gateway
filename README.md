@@ -14,7 +14,7 @@ This repository contains a working sample gateway — **CustomPay** — that sho
 
 ## 📖 Developer Guide
 
-**Start here: [Payment Gateway Developer Guide](LINK)**
+**Start here: [Payment Gateway Developer Guide](https://www.balbooa.com/docs/developers/custom-payment-gateway)**
 
 The guide explains everything you need to build and ship your own gateway:
 
@@ -38,40 +38,8 @@ The guide explains everything you need to build and ship your own gateway:
 <br>
 <br>
 
-## 🛠 Building Your Own Gateway
-
-1. Rename the plugin, namespace and gateway type (`custompay`) to your own.
-2. In `src/Payments/CustomPay.php`, implement:
-   * `onSubmit()` — create the payment and redirect the buyer to the provider
-   * `onWebHook()` — verify the provider's notification and approve or cancel the order
-   * `onAfterRedirect()` — usually left empty
-3. In `src/Extension/CustomPayPlugin.php`, edit the settings fields your provider needs.
-4. Point your provider's webhook to:
-   `https://your-site.com/index.php?option=com_gridbox&task=payment.webhook&gridbox_payment_method=custompay`
-
-
-
-<br>
-<br>
-
-## 📁 Plugin Structure
-
-```
-plg_system_custompay/
-├── custompay.xml                           Plugin manifest
-├── script.php                              Install / uninstall script
-├── services/provider.php                   Joomla service provider
-└── src/
-    ├── Extension/CustomPayPlugin.php       Registration and admin settings fields
-    ├── Payments/CustomPay.php              Payment gateway logic
-    └── Registry/CustomPaymentsFile.php
-```
-
-<br>
-<br>
-
 ## 📚 Resources
 
-* **[Payment Gateway Developer Guide](LINK)** — full guide with API reference
+* **[Payment Gateway Developer Guide](https://www.balbooa.com/docs/developers/custom-payment-gateway)** — full guide with API reference
 * **[Balbooa Joomla Gridbox](https://www.balbooa.com/gridbox)** — official product page
 * **[Contact Balbooa](https://www.balbooa.com/help/contacts)** — questions and support
