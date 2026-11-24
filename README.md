@@ -12,6 +12,22 @@ This repository contains a working sample gateway — **CustomPay** — that sho
 <br>
 <br>
 
+## 📖 Developer Guide
+
+**Start here: [Payment Gateway Developer Guide](LINK)**
+
+The guide explains everything you need to build and ship your own gateway:
+
+* How the Gridbox payment flow works — from checkout to webhook
+* `PaymentInterface` and `BasePayment` API reference
+* How to register a gateway so it survives Gridbox updates
+* Step-by-step code for every plugin file
+* Webhook security rules and testing
+* Troubleshooting and known limitations
+
+<br>
+<br>
+
 ## 📥 Installing
 
 1. Download `plg_system_custompay.zip` from [Releases](../../releases).
@@ -32,6 +48,8 @@ This repository contains a working sample gateway — **CustomPay** — that sho
 3. In `src/Extension/CustomPayPlugin.php`, edit the settings fields your provider needs.
 4. Point your provider's webhook to:
    `https://your-site.com/index.php?option=com_gridbox&task=payment.webhook&gridbox_payment_method=custompay`
+
+
 
 <br>
 <br>
@@ -54,6 +72,6 @@ plg_system_custompay/
 
 ## 📚 Resources
 
-* **[Balbooa Joomla Gridbox](https://www.balbooa.com/gridbox)** — official product page
 * **[Payment Gateway Developer Guide](LINK)** — full guide with API reference
+* **[Balbooa Joomla Gridbox](https://www.balbooa.com/gridbox)** — official product page
 * **[Contact Balbooa](https://www.balbooa.com/help/contacts)** — questions and support
