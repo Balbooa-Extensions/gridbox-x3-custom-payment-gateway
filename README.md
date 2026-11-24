@@ -14,7 +14,7 @@ This repository contains a working sample gateway — **CustomPay** — that sho
 
 ## 📖 Developer Guide
 
-**Start here: [Payment Gateway Developer Guide](https://www.balbooa.com/docs/developers/custom-payment-gateway)**
+**Start here: [Payment Gateway Developer Guide](https://www.balbooa.com/docs/gridbox/developers/custom-payment-gateway)**
 
 The guide explains everything you need to build and ship your own gateway:
 
@@ -40,6 +40,6 @@ The guide explains everything you need to build and ship your own gateway:
 
 ## 📚 Resources
 
-* **[Payment Gateway Developer Guide](https://www.balbooa.com/docs/developers/custom-payment-gateway)** — full guide with API reference
+* **[Payment Gateway Developer Guide](https://www.balbooa.com/docs/gridbox/developers/custom-payment-gateway)** — full guide with API reference
 * **[Balbooa Joomla Gridbox](https://www.balbooa.com/gridbox)** — official product page
 * **[Contact Balbooa](https://www.balbooa.com/help/contacts)** — questions and support
