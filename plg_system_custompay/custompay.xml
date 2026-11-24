@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>Gridbox - CustomPay</name>
+    <author>CustomPay</author>
+    <version>1.0.0</version>
+    <description>CustomPay gateway for Gridbox 3</description>
+    <namespace path="src">CustomPay\Plugin\System\CustomPay</namespace>
+    <scriptfile>script.php</scriptfile>
+    <files>
+        <folder plugin="custompay">services</folder>
+        <folder>src</folder>
+    </files>
+</extension>
